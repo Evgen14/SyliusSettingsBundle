@@ -24,12 +24,12 @@
 
         "sylius/registry": "^1.0",
         "sylius/resource-bundle": "^1.0",
-        "symfony/framework-bundle": "^2.8"
+        "symfony/framework-bundle": "^2.8|^3.4|^4.3"
     },
     "require-dev": {
         "phpspec/phpspec": "^3.1",
-        "symfony/form": "^2.8",
-        "symfony/validator": "^2.8"
+        "symfony/form": "^2.8|^3.4|^4.3",
+        "symfony/validator": "^2.8|^3.4|^4.3"
     },
     "config": {
         "bin-dir": "bin"
@@ -47,10 +47,5 @@
             "type": "path",
             "url": "../../*/*"
         }
-    ],
-    "extra": {
-        "branch-alias": {
-            "dev-master": "1.0-dev"
-        }
-    }
+    ]
 }
